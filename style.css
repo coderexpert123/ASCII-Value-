@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+    background-color: black;
+    padding: 40px;
+    color: white;
+    
+    gap: 24px;
+
+}
+
+.box{
+
+    background-color: rgb(58, 54, 46);
+    padding: 30px 20px;
+   
+    display: flex;
+    border-radius: 3px;
+    justify-content: space-between;
+    text-align: center;
+}
+.head{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+  
+}
